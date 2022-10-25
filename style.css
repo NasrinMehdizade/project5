@@ -1,0 +1,146 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+}
+.left {
+    width: 30%;
+    background-image: url("./left.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.right {
+    width: 55%;
+    height: 100vh;
+    padding-left: 435px;
+    padding-right: 10px;
+    padding-top: 290px;
+    display: flex;
+    flex-direction: column;
+}
+.right .label1 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.right .line1 {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+}
+.right .line1:hover{
+    border: 1px solid #6a5775;
+}
+.right .line1::placeholder {
+    color: #c7c7c9;
+}
+.right .label2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.right .line2 {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+}
+.right .line2::placeholder {
+    color: #c7c7c9;
+}
+.right .line2:hover{
+    border: 1px solid #6a5775;
+}
+.label3 {
+    display: flex;
+    flex-direction: row;
+}
+.right .label3 .line-1 {
+    width: 50%;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.right .label3 .line-2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.right .line3 {
+    display: flex;
+    flex-direction: row;
+
+}
+.right .line3 .MM {
+    width: 25%;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+}
+.right .line3 .MM:hover {
+    border: 1px solid #6a5775;
+}
+.right .MM::placeholder {
+    color: #c7c7c9;
+}
+.right .line3 .YY {
+    width: 25%;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    margin-left: 1%;
+}
+.right .line3 .YY:hover {
+    border: 1px solid #6a5775;
+}
+.right .YY::placeholder {
+    color: #c7c7c9;
+}
+.right .line3 .line-3 {
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    margin-left: 2%;
+}
+.right .line3 .line-3:hover {
+    border: 1px solid #6a5775;
+}
+.right .line-3::placeholder {
+    color: #c7c7c9;
+}
+.right button {
+    background-color: #220930;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #887b8f;
+    cursor: pointer;
+}
+.box2  {
+    width: 80%;
+    height: 50vh;
+    background-image: url("./box2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+
