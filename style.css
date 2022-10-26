@@ -18,7 +18,7 @@
 }
 .right {
     width: 55%;
-    height: 100vh;
+    height: 101vh;
     padding-left: 435px;
     padding-right: 10px;
     padding-top: 290px;
@@ -36,12 +36,16 @@
     border-radius: 8px;
     border: 1px solid #e9e9e9;
     cursor: pointer;
+    border: 2px solid red;
 }
 .right .line1:hover{
     border: 1px solid #6a5775;
 }
 .right .line1::placeholder {
     color: #c7c7c9;
+}
+.right input:focus {
+    border: 2px solid red;
 }
 .right .label2 {
     font-size: 14px;
@@ -140,7 +144,62 @@
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
-    top: 100px;
-    left: 500px;
+    top: 153px;
+    left: 233px;
 }
-
+.box3 {
+    width: 80%;
+    height: 50vh;
+    background-image: url("./bg-card-back.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    position: relative;
+    top: 6px;
+    left: 297px;
+    color: white;
+}
+.left .box3 h2 {
+    position: relative;
+    top: 104px;
+    left: 345px;
+    font-size: 20px;
+}
+.circle {
+    width: 11%;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+}
+.circle2 {
+    width: 5%;
+    height: 2.5vh;
+    border-radius: 100%;
+    background-color: none;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+.box2 .line1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    margin-top: 74px;
+}
+.box2 .line1 .h-2 {
+    margin-left: 147px;
+}
+.box2 h1 {
+    text-align: center;
+    letter-spacing: .3rem;
+    margin-top: 75px;
+    margin-bottom: -56px;
+    font-size: 30px;
+}
+.left .box2 .circles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 33px;
+    padding-top: 26px;
+}
